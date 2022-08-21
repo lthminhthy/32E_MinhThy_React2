@@ -1,0 +1,158 @@
+.bg{
+    background-image: url("../../../public/glassesImage/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* opacity: 0.8; */
+    height: 100%;
+   
+    
+
+}
+header{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgba(128, 123, 128, 0.8), rgba(133, 125, 125, 0.8)), url("../../../public/glassesImage/background.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(128, 122, 128, 0.8), rgba(122, 115, 115, 0.8)), url("../../../public/glassesImage/background.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-overlay{
+    background-color: #383b3e9e;
+    /* height: fit-content; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 430px;
+    width: 100%;
+    /* z-index: 8; */
+    z-index: 9;
+
+
+}
+
+.list-glasses{
+    background-color: white;
+    z-index: 9999999999999999;
+    padding: 20px;
+}
+
+.imgModel{
+    z-index: 999;
+}
+
+.chooseGlasses{
+    height: max-content;
+
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row{
+    background-color: white;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.glass{
+ cursor: pointer;
+ 
+}
+
+.glass:active{
+    border: 1px solid black;
+}
+
+
+.overlay-nav{
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    z-index: 99;
+    /* position: relative; */
+}
+
+
+.title{
+   
+
+}
+
+.body-choose{
+    height: 235px;
+ 
+}
+
+.modelLeft{
+    position: relative;
+    z-index: 999;
+}
+.modelRight{
+    position: relative;
+    z-index: 999;
+}
+
+.modelLeft .contentProduct{
+    position: absolute;
+    content: '';
+    background-color: #ee8946f6;
+    
+    opacity: 0.7;
+    width: 100%;
+    height: 36%;
+    align-items: center;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+
+}
+
+.name-product{
+    color: blue;
+    
+}
+
+.glassTest{
+    position: absolute;
+    top: -119px;
+    left: 53px;
+    width: 56%;
+}
+.glassTestRight{
+    position: absolute;
+    top: -110%;
+    left: 22%;
+    width: 56%;
+    opacity: 0.7
+}
+
+.contentGlassRight{
+    position: absolute;
+    content: '';
+    background-color: #ee8946f6;
+    
+    opacity: 0.7;
+    width: 100%;
+    height: 36%;
+    align-items: center;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+
+}
+
+
